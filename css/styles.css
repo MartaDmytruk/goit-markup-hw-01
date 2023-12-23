@@ -24,7 +24,9 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.address-contact:hover {
+.address-contact:hover,
+.address-contact:focus {
+       color: #404bbf;
 
 }
 
@@ -58,7 +60,7 @@ ul {
 .header-menu-item:hover,
  .header-menu-item:focus {
 
-    color:#4D5AE5;
+    color:#404bbf;
 }
 
 
@@ -85,7 +87,7 @@ ul {
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.04em;
     cursor: pointer;
 } 
@@ -108,7 +110,10 @@ background-color: #404BBF;
         color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
-        line-height: normal;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
     
 }
 
@@ -133,7 +138,7 @@ background-color: #404BBF;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
@@ -210,7 +215,7 @@ text-transform: capitalize;
                 font-family: 'Raleway', sans-serif;
                 font-size: 18px;
                 font-weight: 700;
-                line-height: 1.16;
+                line-height: 1.17;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
 }
