@@ -143,7 +143,8 @@ background-color: #404BBF;
         text-transform: capitalize;
 }
 
-.team-list {
+.team-list {}
+
 
 
 .team-member {
@@ -209,28 +210,27 @@ text-transform: capitalize;
 /*-----------------FOOTER------------------*/
 
 .footer {
-        background-color: 
-        #2E2F42;
+        background-color: #2E2F42;
 }
 
 .footer-logo {
-                color: #4D5AE5;
-                font-family: 'Raleway', sans-serif;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
+        color: #4D5AE5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .footer-logo-studio {
-                color:  #F4F4FD;
-                font-family: 'Raleway', sans-serif;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
+        color: #F4F4FD;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .footer-text {
@@ -240,3 +240,5 @@ text-transform: capitalize;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
 }
+
+/*----------------------------------------*/
