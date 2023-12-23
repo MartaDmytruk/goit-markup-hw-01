@@ -87,7 +87,7 @@ ul {
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 } 
@@ -144,10 +144,11 @@ background-color: #404BBF;
 }
 
 .team-list {
-background-color: #FFFFFF;
-}
 
-.team-member {}
+
+.team-member {
+        background-color: #FFFFFF;
+}
 
 .team-image {}
 
