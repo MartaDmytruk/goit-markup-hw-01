@@ -19,10 +19,13 @@ ul {
 }
 
 .address-contact {
-color:  #434455;
+        color:  #434455;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
+}
+.address-contact:hover {
+
 }
 
 .header-logo {
@@ -52,13 +55,12 @@ color:  #434455;
         letter-spacing: 0.02em;
 }
 
-.header-menu-item:hover {
+.header-menu-item:hover,
+ .header-menu-item:focus {
+
     color:#4D5AE5;
 }
 
-.header-menu-item:focus {
-    color: #4D5AE5;
-}
 
 
 /*--------------------------------------*/
@@ -78,7 +80,8 @@ color:  #434455;
         letter-spacing: 0.02em;
 }
 .hero-order-button {
-color:  #FFF;
+        background-color: #4D5AE5;
+        color:  #FFF;
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
@@ -86,7 +89,11 @@ color:  #FFF;
     letter-spacing: 0.04em;
     cursor: pointer;
 } 
-
+.hero-order-button:hover,
+.hero-order-button:focus
+{
+background-color: #404BBF;
+}
 /*------------------------------------------*/
 
 /*--------------FEATURES--------------------*/
@@ -213,7 +220,7 @@ text-transform: capitalize;
                 font-family: 'Raleway', sans-serif;
                 font-size: 18px;
                 font-weight: 700;
-                line-height: 1.16;
+                line-height: 1.17;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
 }
