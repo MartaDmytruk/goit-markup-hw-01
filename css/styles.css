@@ -202,12 +202,12 @@ padding-bottom: 120px;
 .features-list {
         display: flex;
         gap: 24px;
-      
+width: calc((100% - 72px) / 4);
 } 
 
 
 .features-list-item {
-width: calc((100% - 72px) / 4);
+
         
         
 }
@@ -328,6 +328,7 @@ width: calc((100% - 72px) / 4);
         border-top: none;
         padding-left: 15px;
          padding-right: 15px;
+
 }
 .portfolio-headline {
 color: #2E2F42;
