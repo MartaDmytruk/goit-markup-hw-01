@@ -326,8 +326,7 @@ width: calc((100% - 72px) / 4);
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        padding-left: 15px;
-         padding-right: 15px;
+      
 
 }
 .portfolio-headline {
