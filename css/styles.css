@@ -480,7 +480,7 @@ margin-bottom: 72px;
        align-items: center;
 }
 .footer-icon {
-
+display: flex;
 }
 .footer-link-icon {
         display: flex;
