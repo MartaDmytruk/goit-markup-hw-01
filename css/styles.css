@@ -472,12 +472,15 @@ margin-bottom: 72px;
                 padding-bottom: 16px;
 }
 .footer-icons {
-
+display: flex;
+align-items: baseline;
+margin-right: 120px;
 }
 .footer-icon-list {
         display: flex;
        justify-content: center;
        align-items: center;
+        gap: 16px;
 }
 .footer-icon {
 display: flex;
