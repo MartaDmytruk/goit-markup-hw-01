@@ -116,26 +116,22 @@ button {
         gap:40px;
         
 }
-.header-item-active{
+.current {
         position:relative;
-        padding-bottom: 20px;
+        color: #404bbf;
 }
-.header-item-active::after {
+.current::after {
         content:'';
         width: 48px;
                 height: 4px;
                 position: absolute;
-                color: #404bbf;
+                background-color: #404bbf;
                 left: 0;
                 bottom: -1px;
-                background-color: #404bbf;
                 border-radius: 2px;
-                transition: 25ms cubic-bezier(0.4, 0, 0.2, 1);
-
+                
 }
-.header-item-active:active::after{
 
-}
 .header-menu-item {
         color: #2E2F42;
         font-size: 16px;
@@ -143,9 +139,7 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
 padding: 24px 0 24px;
-transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+        transition; color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .header-menu-item:hover,
@@ -490,7 +484,7 @@ margin-bottom: 72px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 max-width: 264px;
-               
+        
 }
 .footer-link-title {
         color: var(--WHITE, #FFF);
@@ -506,7 +500,7 @@ margin-bottom: 72px;
 display: flex;
 align-items: baseline;
 margin-right: 120px;
-position: relative;
+position: absolute;
 }
 .footer-icon-list {
         display: flex;
